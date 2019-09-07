@@ -1,0 +1,94 @@
+#/////////////////////////////////////////////////////////////////////////////
+# Fireball Projects
+#/////////////////////////////////////////////////////////////////////////////
+
+library/
+temp/
+local/
+build/
+
+#/////////////////////////////////////////////////////////////////////////////
+# Logs and databases
+#/////////////////////////////////////////////////////////////////////////////
+
+*.log
+*.sql
+*.sqlite
+
+#/////////////////////////////////////////////////////////////////////////////
+# files for debugger
+#/////////////////////////////////////////////////////////////////////////////
+
+*.sln
+*.csproj
+*.pidb
+*.unityproj
+*.suo
+
+#/////////////////////////////////////////////////////////////////////////////
+# OS generated files
+#/////////////////////////////////////////////////////////////////////////////
+
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+#/////////////////////////////////////////////////////////////////////////////
+# exvim files
+#/////////////////////////////////////////////////////////////////////////////
+
+*UnityVS.meta
+*.err
+*.err.meta
+*.exvim
+*.exvim.meta
+*.vimentry
+*.vimentry.meta
+*.vimproject
+*.vimproject.meta
+.vimfiles.*/
+.exvim.*/
+quick_gen_project_*_autogen.bat
+quick_gen_project_*_autogen.bat.meta
+quick_gen_project_*_autogen.sh
+quick_gen_project_*_autogen.sh.meta
+.exvim.app
+
+#/////////////////////////////////////////////////////////////////////////////
+# webstorm files
+#/////////////////////////////////////////////////////////////////////////////
+
+.idea/
+
+#//////////////////////////
+# VS Code
+#//////////////////////////
+
+.vscode/
+assets/Prefabs/Trap - 001.prefab
+assets/Prefabs/Trap - 001.prefab.meta
+
+assets/Scenes/Spiderman_VinhDepTrai\.fire
+
+assets/Scenes/Spiderman_VinhDepTrai\.fire\.meta
+
+assets/Scenes/TestingScene\.fire
+assets/Scripts/Managers/MenuMoreGame.js.meta
+assets/Scripts/Managers/MenuMoreGame.js
+assets/Scripts/Managers/JSCallGlobal.js.meta
+assets/Scripts/Managers/JSCallGlobal.js
+assets/Scripts/Managers/Global.js.meta
+assets/Scripts/Managers/Global.js
+assets/Scripts/Managers/SplashRun.js.meta
+assets/Scripts/Managers/SplashRun.js
+assets/Scripts/Network/XOR.js.meta
+assets/Scripts/Network/XOR.js
+assets/Scripts/Network/MD5.js.meta
+assets/Scripts/Network/MD5.js
+assets/Scripts/Network/GameNetwork.js.meta
+assets/Scripts/Network/GameNetwork.js
+assets/Scripts/Network.meta
+splash.png
+index.html
+fbapp-config.json
+FacebookAds.js

@@ -11,35 +11,50 @@ var PlayerController = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this._anchor = null;
         _this._touchSensor = null;
-        _this._isHanging = false;
+        _this._isSwing = false;
         return _this;
     }
     PlayerController.prototype.onLoad = function () {
         if (this._touchSensor == null) {
             this._touchSensor = cc.find("Canvas/Main Camera/Touch Sensor").getComponent(TouchSensorController_1.default);
         }
+        this._distanceJoint = this.node.getComponent(cc.DistanceJoint);
     };
     PlayerController.prototype.update = function (dt) {
         if (this._touchSensor.getIsTouching()) {
-            this.lootAtObject(this._anchor);
-            this.hangOnAnAnchor(this._anchor.getComponent(cc.RigidBody));
+            this.onSwing(this._anchor);
+            cc.log("SWING");
         }
-        // cc.log(this.node.getComponent(cc.DistanceJoint).distance);
-        cc.log(this._isHanging);
+        else {
+            this.onRelease();
+            cc.log("RELEASE");
+        }
+        cc.log(this.node.getComponent(cc.DistanceJoint));
     };
-    PlayerController.prototype.lootAtObject = function (target) {
+    PlayerController.prototype.lookAtObject = function (target) {
         var direction = target.position.addSelf(this.node.position.mulSelf(-1));
         var angle = Math.atan2(direction.x, direction.y) * 180 / Math.PI;
         this.node.rotation = angle;
     };
-    PlayerController.prototype.hangOnAnAnchor = function (anchor) {
-        if (this._isHanging)
+    PlayerController.prototype.onSwing = function (anchor) {
+        this.lookAtObject(anchor);
+        if (this._isSwing)
             return;
-        this._isHanging = true;
-        var distanceJoint = this.node.getComponent(cc.DistanceJoint);
-        distanceJoint.connectedBody = anchor;
-        distanceJoint.distance = 300;
-        distanceJoint.dampingRatio = 1;
+        this._isSwing = true;
+        this._distanceJoint.enabled = true;
+        this._distanceJoint.connectedBody = anchor.getComponent(cc.RigidBody);
+        var currentPos = this.node.parent.convertToWorldSpaceAR(this.node.position);
+        var anchorPos = anchor.parent.convertToWorldSpaceAR(anchor.position);
+        this._distanceJoint.distance = currentPos.addSelf(anchorPos.mulSelf(-1)).mag();
+        this._distanceJoint.apply();
+    };
+    PlayerController.prototype.onRelease = function () {
+        if (!this._isSwing)
+            return;
+        this._isSwing = false;
+        this._distanceJoint.enabled = false;
+        this._distanceJoint.connectedBody = null;
+        this._distanceJoint.apply();
     };
     __decorate([
         property({

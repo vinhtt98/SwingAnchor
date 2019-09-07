@@ -25,7 +25,7 @@
     "relativePath": "prefab"
   },
   "aeff93f4-ef22-4cc7-a3c3-160d4f5a9b50": {
-    "asset": 1567670179785,
+    "asset": 1567825328177,
     "meta": 1567670134188,
     "relativePath": "Sprites"
   },
@@ -35,8 +35,8 @@
     "relativePath": "Sprites/White Square.jpg"
   },
   "4f0f2c06-61a6-4459-97dc-947fe0db60f2": {
-    "asset": 1567826430247,
-    "meta": 1567826430256,
+    "asset": 1567829109421,
+    "meta": 1567829109426,
     "relativePath": "Scenes/PlayingScene.fire"
   },
   "18267282-82e7-4663-96f6-7533ed767b2d": {
@@ -290,8 +290,13 @@
     "relativePath": "Sprites/Bullet.png"
   },
   "22c957d7-5b97-4593-9972-591b88191a47": {
-    "asset": 1567826353879,
-    "meta": 1567826359358,
+    "asset": 1567831097906,
+    "meta": 1567831103923,
     "relativePath": "Scripts/Player Controller.ts"
+  },
+  "fc02f317-ba7f-4004-a776-8c9edc8fa5af": {
+    "asset": 1567832864597,
+    "meta": 1567832985274,
+    "relativePath": "Scripts/PillarPool.ts"
   }
 }
