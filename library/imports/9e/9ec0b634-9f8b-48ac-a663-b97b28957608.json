@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "White Square",
+    "texture": "33af03be-6697-436f-8ee5-25d24ddda0df",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      900,
+      900
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      900,
+      900
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

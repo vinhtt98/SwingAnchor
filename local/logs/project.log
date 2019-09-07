@@ -1,0 +1,63 @@
+2019-09-07T02:17:04.479Z - normal: Load ~/.CocosCreator/settings.json
+2019-09-07T02:17:04.531Z - normal: Initializing Asset Database
+2019-09-07T02:17:04.533Z - normal: checking language setting...
+2019-09-07T02:17:04.533Z - normal: Language: en
+2019-09-07T02:17:05.133Z - success: preview server running at http://localhost:7456
+2019-09-07T02:17:05.157Z - success: protocol editor-framework registered
+2019-09-07T02:17:05.157Z - success: protocol app registered
+2019-09-07T02:17:05.157Z - success: protocol theme registered
+2019-09-07T02:17:05.157Z - success: protocol packages registered
+2019-09-07T02:17:05.157Z - success: protocol uuid registerred
+2019-09-07T02:17:05.157Z - success: protocol db registerred
+2019-09-07T02:17:05.157Z - success: protocol thumbnail registerred
+2019-09-07T02:17:05.157Z - success: protocol unpack registerred
+2019-09-07T02:17:05.157Z - success: protocol disable-commonjs registerred
+2019-09-07T02:17:06.933Z - normal: connected!
+2019-09-07T02:17:06.934Z - normal: Check project /Users/unknownow123/Desktop/Works/CocosCreator/SwingAnchor
+2019-09-07T02:17:06.935Z - normal: Initializing project /Users/unknownow123/Desktop/Works/CocosCreator/SwingAnchor
+2019-09-07T02:17:07.249Z - normal: Initializing Cocos2d
+2019-09-07T02:17:07.852Z - normal: Initializing engine extends
+2019-09-07T02:17:07.887Z - success: asset-db-debugger loaded
+2019-09-07T02:17:07.888Z - success: baidu-adapter loaded
+2019-09-07T02:17:07.889Z - success: color-picker loaded
+2019-09-07T02:17:07.958Z - success: fb-audience-network loaded
+2019-09-07T02:17:08.005Z - success: fb-live-stream loaded
+2019-09-07T02:17:08.007Z - success: google-play-instant loaded
+2019-09-07T02:17:08.012Z - success: huawei-runtime loaded
+2019-09-07T02:17:08.013Z - success: jsb-adapter loaded
+2019-09-07T02:17:08.018Z - success: oppo-runtime loaded
+2019-09-07T02:17:08.026Z - success: package-manager loaded
+2019-09-07T02:17:08.142Z - success: qqplay-adapter loaded
+2019-09-07T02:17:08.145Z - success: runtime-dev-tools loaded
+2019-09-07T02:17:08.154Z - success: sdkbox loaded
+2019-09-07T02:17:08.163Z - success: tester loaded
+2019-09-07T02:17:08.172Z - success: ui-grid loaded
+2019-09-07T02:17:08.179Z - success: ui-kit-preview-extra loaded
+2019-09-07T02:17:08.186Z - success: ui-kit-preview loaded
+2019-09-07T02:17:08.193Z - success: ui-kit loaded
+2019-09-07T02:17:08.200Z - success: ui-tree loaded
+2019-09-07T02:17:08.203Z - success: vivo-runtime loaded
+2019-09-07T02:17:08.204Z - success: weapp-adapter loaded
+2019-09-07T02:17:08.235Z - success: assets loaded
+2019-09-07T02:17:08.241Z - success: builder loaded
+2019-09-07T02:17:08.487Z - success: cocos-services loaded
+2019-09-07T02:17:08.496Z - success: console loaded
+2019-09-07T02:17:08.520Z - success: fb-instant-games loaded
+2019-09-07T02:17:08.523Z - success: google-instant-games loaded
+2019-09-07T02:17:08.535Z - success: hierarchy loaded
+2019-09-07T02:17:08.543Z - success: inspector loaded
+2019-09-07T02:17:08.544Z - success: keystore loaded
+2019-09-07T02:17:08.551Z - success: node-library loaded
+2019-09-07T02:17:08.553Z - success: package-asset loaded
+2019-09-07T02:17:08.554Z - success: preferences loaded
+2019-09-07T02:17:08.560Z - success: project-exporter loaded
+2019-09-07T02:17:08.567Z - success: project-importer loaded
+2019-09-07T02:17:08.575Z - success: project-settings loaded
+2019-09-07T02:17:08.582Z - success: scene loaded
+2019-09-07T02:17:08.583Z - success: simulator-debugger loaded
+2019-09-07T02:17:08.585Z - success: sprite-editor loaded
+2019-09-07T02:17:08.591Z - success: store loaded
+2019-09-07T02:17:08.599Z - success: timeline loaded
+2019-09-07T02:17:09.302Z - normal: Loading packages
+2019-09-07T02:17:09.306Z - normal: Watching packages
+2019-09-07T02:17:09.376Z - normal: Run Application
